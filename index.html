@@ -3,38 +3,41 @@
 <head>
 	<title>Google</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if IE]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<header>
-		<nav>
+		<nav id="header-nav">
 			<ul>
-				<li class="header_nav">Gmail</li>
-				<li class="header_nav">Images</li>
-				<li class="header_nav">Apps</li>
-				<li class="header_nav" id="header-nav-ID">Sign in</li>
+				<li class="header_nav_li">Gmail</li>
+				<li class="header_nav_li">Images</li>
+				<li class="header_nav_li">Apps</li>
+				<li class="header_nav_li" id="header-nav-ID">Sign in</li>
 			</ul>
 		</nav>
 	</header>
-	<div id="div-container">
-		<section>
-			<h1 id="google-logo">Google</h1>
-			<input type="text" name="">
+	<div id="container">
+			<img src="img/googlelogo_color_272x92dp.png" alt="images">
+            <form>
+			<input type="search" name="">
 			<input type="submit" name="" value="google search">
 			<input type="submit" name="" value="I'm Feeling Lucky">
+            </form>
 			<p>Google offered in : <span>Fran&ccedil;ais</span></p>
-		</section>
-	</div><!--End div-container-->
-	<footer>
-		<nav>Morocco</nav>
-		<nav>
+	</div><!--#container-->
+	<footer id="footer">
+		<nav id="first-footer">Morocco</nav>
+		<nav id="second-footer" class="clearfix">
 			<ul>
-				<li>Advertising</li>
-				<li>Business</li>
-				<li>About</li>
-				<li>How search works</li>
-				<li>Privacy</li>
-				<li>Terms</li>
-				<li>Settings</li>
+				<li class="footer_nav_li">Advertising</li>
+				<li class="footer_nav_li">Business</li>
+				<li class="footer_nav_li">About</li>
+				<li class="footer_nav_li">How search works</li>
+				<li class="footer_nav_li_last">Privacy</li>
+				<li class="footer_nav_li_last">Terms</li>
+				<li class="footer_nav_li_last">Settings</li>
 			</ul>
 		</nav>
 	</footer>
