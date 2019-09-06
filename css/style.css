@@ -27,6 +27,10 @@ header nav ul li{
     margin: 0px 2px;
     border: 1px solid #4285f4;
     border-radius: 2px;
+    text-decoration: none;
+}
+#header-nav-ID:hover{
+    box-shadow: 0 2px 2px -1px gray;
 }
 li:hover{
     text-decoration: underline;
@@ -52,6 +56,10 @@ input[type="search"]{
     border: 1px solid #dfe1e5; 
     border-radius: 25px;
 }
+input[type="search"]:hover{
+    box-shadow: 1px 1px 3px 3px #f2f2f2;
+    border: none;
+}
 input[type="submit"]{
     background: #f4f4f4;
     margin: 8px 4px;
@@ -62,14 +70,23 @@ input[type="submit"]{
     line-height: 27px;
     text-align: center;
     border: 1px solid #f2f2f2; 
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background: #f2f2f2;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 3px -1px darkgray;
+    border-radius: 5px;
+
 }
 span{
-    color: #4683ea;
+    color: #1a0dab;
 }
 p{
     margin-top: 22px;
-    word-spacing: 3px;
+    word-spacing: 2px;
     letter-spacing: 0.2px;
+    font-size: 13px
 }
                         /*footer*/
 
