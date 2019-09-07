@@ -157,6 +157,10 @@ footer nav ul li{
     color: #6f6f6f;
     padding-left: 50px;
 }
+#first-footer span:hover{
+    cursor:default;
+    text-decoration: none;
+}
 #second-footer{
     position: absolute;
     bottom: 0px;
@@ -173,8 +177,9 @@ footer nav li.footer_nav_li{
     margin: 4px 10px 0 10px;
 }
 footer nav li.footer_nav_li_last{
+    line-height: 10px;
     padding: 0 0 0 0;
-    margin: 4px 10px 0 10px;
+    margin: 5px 20px 0 10px;
     float: right;
 }
 .clearfix{
